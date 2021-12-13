@@ -25,8 +25,9 @@ body {
 
 /* Mapa */
 .mapa {
-  width: 10px;
-  height: 500px;
+  width: 100% !important;
+  height: 500px !important;
+  padding: 50px !important;
 }
 #local {
   background: #3f3f3f;

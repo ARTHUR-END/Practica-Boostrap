@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap");
+
+body {
+  font-family: Montserrat, sans-serif;
+  overflow-x: hidden;
+}
+/* Menu */
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+#menu form > button {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* End Menu */
+
+/* Slider */
+.carousel-inner {
+  max-height: 39rem;
+}
+
+/* End Slider */
+
+/* Mapa */
+.mapa {
+  width: 10px;
+  height: 500px;
+}
+#local {
+  background: #3f3f3f;
+  padding-bottom: 300px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  width: 50%;
+  margin-left: 100px;
+  padding-top: 150px;
+}
+#numeros-local div {
+  padding: 0 20px 0 0;
+  height: 48px;
+}
+#numeros-local div:not(:last-child) {
+  border-right: 2px solid #000000;
+}
+#numeros-local div:not(:first-child) {
+  padding-left: 20px;
+}
+#numeros-local p {
+  margin: 0;
+}
+
+/* End Mapa */
+
+/* Media Querires 768px */
+@media (min-width: 768px) {
+  #intro #equipo {
+    width: 90% !important;
+  }
+  #equipo p {
+    display: none;
+  }
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+/* End Media Queries 768px */
+
+/* Media Queries 576pc */
+@media (min-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
+/* End Media Queries 576pc */
+
+/* Media Querires 1200px */
+@media (min-width: 1200px) {
+  #local {
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+  }
+}
+/* End Media Querires 1200px */
